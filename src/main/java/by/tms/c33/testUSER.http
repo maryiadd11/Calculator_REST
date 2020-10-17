@@ -1,0 +1,16 @@
+GET http://localhost:8080/user/getAll
+
+###
+
+POST http://localhost:8080/user/save
+Content-Type: application/json
+
+{
+  "name": "Test1",
+  "login": "test1",
+  "password": "111"
+}
+
+###
+
+GET http://localhost:8080/user/getByLogin?login=test2

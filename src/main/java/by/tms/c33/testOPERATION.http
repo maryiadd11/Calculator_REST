@@ -1,0 +1,20 @@
+POST http://localhost:8080/operation/save
+Content-Type: application/json
+
+{
+  "num1": 899,
+  "num2": 45,
+  "type": "sum"
+}
+
+###
+
+GET http://localhost:8080/operation/getAll
+
+###
+
+GET http://localhost:8080/operation/getById?id=1
+
+###
+
+GET http://localhost:8080/operation/getByType?type=sum
