@@ -20,5 +20,11 @@ public class User {
     private String name;
     private String login;
     private String password;
+    private String token;
 
+    public User(String login, String password, String token){
+        this.login = login;
+        this.password = password;
+        this.token = token;
+    }
 }
